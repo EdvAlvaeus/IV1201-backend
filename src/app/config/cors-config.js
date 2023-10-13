@@ -12,7 +12,7 @@ module.exports = {
   corsOptions: () => {
     if (process.env.NODE_ENV === 'production') {
       return {
-        origin: ['https://iv1201-frontend.onrender.com'],
+        origin: ['https://iv1201-frontend-j41m.onrender.com'],
         credentials: true,
       };
     } else {
